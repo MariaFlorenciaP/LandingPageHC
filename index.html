@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0ce4b18319.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    
+    <a href="index.html" class="nav-logo"><img src="assets/logo.jpg" alt="" style="height: 50px; width: 60px;">OneTech</a>
+    <div class="social-icons">
+      <ul>
+        <li>Contátenos!</li>
+         <li><a href="#" class="e-mail"><i class="fas fa-envelope"></i></a></li>
+         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>      
+    </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="content">
+      <h1>Não perca nossas ofertas!</h1>
+      <p>São 48 horas de ofertas imperdíveis!<br> Assine nosso newsletter e não perca nenhuma!<br>
+        Fique por dentro das novidades e obtenha o máximo desconto.</p>
+
+      <div id="form">
+        <form>
+          <input type="text" id="email" placeholder="Digite seu email..">
+          <input type="submit" value="EU QUERO!" class="btns">
+        </form>
+      </div> 
+      <div>
+        <br>
+        <a href="#" id="link-home">Ir para o site</a> 
+      </div>
+         
+    </div>
+
+    
+
+    <div class="slideshow-container fade">
+      <!-- Full images with numbers and message Info -->
+      <div class="Containers">
+        <img src="assets/Alexa2.png" style="width: 80%;">
+      </div>
+
+      <div class="Containers">
+        <img src="assets/joystick2.png" style="width:70%;">
+      </div>
+
+      <div class="Containers">
+        <img src="assets/compu2.png" style="width:80%;">
+      </div>
+
+      <!-- Back and forward buttons -->
+      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The circles/dots -->
+    <div style="text-align:center">
+      <span class="dots" onclick="currentSlide(1)"></span>
+      <span class="dots" onclick="currentSlide(2)"></span>
+      <span class="dots" onclick="currentSlide(3)"></span>
+    </div>
+
+  </main>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
